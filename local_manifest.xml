@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-	<project path="device/xiaomi/fog" name="alternoegraha/device_xiaomi_fog" remote="github" revision="lineage-23" />
+	<project path="device/xiaomi/fog" name="whynotstarlix/device_xiaomi_fog" remote="github" revision="rising" />
 	<project path="device/xiaomi/fog-kernel" name="alternoegraha/device_xiaomi_fog-kernel" remote="github" revision="ksu-and-bpf" />
 	<project path="vendor/xiaomi/fog" name="alternoegraha/vendor_xiaomi_fog" remote="github" revision="fifteen-qpr2" />
-	<project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" remote="github" revision="lineage-23.0" />
-	<remove-project name="LineageOS/android_bootable_recovery" />
-	<project path="bootable/recovery" name="alternoegraha/lineage_bootable_recovery" remote="github" groups="pdk" revision="lineage-23.0" />
-	<remove-project name="LineageOS/android_device_lineage_sepolicy" />
-	<project path="device/lineage/sepolicy" name="alternoegraha/android_device_lineage_sepolicy" remote="github" revision="lineage-23.0" />
-	<remove-project name="LineageOS/android_system_sepolicy" />
-	<project path="system/sepolicy" name="alternoegraha/lineage_system_sepolicy" remote="github" groups="pdk" revision="lineage-23.0" />
+	<project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" remote="github" revision="lineage-23.0" />	
 </manifest>
